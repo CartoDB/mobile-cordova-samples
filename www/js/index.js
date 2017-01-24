@@ -39,8 +39,8 @@ var app = {
             console.log("Device is Droid")
             var license = "XTUN3Q0ZFN21YNnp3bzRicUs4VFVFYWhZMzl4VEphNTFBaFFBZzk5bGc2V3V4RE5MaW1xTTJpZW9NeXhZUXc9PQoKYXBwVG9rZW49NTJiYTQxNWYtNDM3My00NjdjLWJiMjYtMjA3YzI2NzIwZmIxCnBhY2thZ2VOYW1lPWNvbS5jYXJ0by5zZGsuY29yZG92YQpvbmxpbmVMaWNlbnNlPTEKcHJvZHVjdHM9c2RrLWFuZHJvaWQtNC4qCndhdGVybWFyaz1jdXN0b20K";
         } else {
-            var license = "XTUMwQ0ZBVVI0VFlhM2ZkaDVtUUVLN0RVMHpzeEFGd1lBaFVBdWtiTXAvMzAwOUJJb1BnMFlaekUvSmJkK3VrPQoKYXBwVG9rZW49OWEzNDAzZDAtODE1My00NzU0LTgwYWEtNDE4MDIxYjhlYTk0CmJ1bmRsZUlkZW50aWZpZXI9Y29tLmNhcnRvLnNkay5jb3Jkb3ZhCm9ubGluZUxpY2Vuc2U9MQpwcm9kdWN0cz1zZGstaW9zLTQuKgp3YXRlcm1hcms9Y3VzdG9tCg==";
             console.log("Device is iOS");
+            var license = "XTUMwQ0ZBVVI0VFlhM2ZkaDVtUUVLN0RVMHpzeEFGd1lBaFVBdWtiTXAvMzAwOUJJb1BnMFlaekUvSmJkK3VrPQoKYXBwVG9rZW49OWEzNDAzZDAtODE1My00NzU0LTgwYWEtNDE4MDIxYjhlYTk0CmJ1bmRsZUlkZW50aWZpZXI9Y29tLmNhcnRvLnNkay5jb3Jkb3ZhCm9ubGluZUxpY2Vuc2U9MQpwcm9kdWN0cz1zZGstaW9zLTQuKgp3YXRlcm1hcms9Y3VzdG9tCg==";
             // Set top margin to account for the status bar
             $(".navigation_bar").css("margin-top", "20px");
         }
