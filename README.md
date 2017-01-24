@@ -18,7 +18,7 @@ Contains **2** Cordova plugins
 * `cordova restore` – Platforms and plugins are automatically restored from config.xml when the 'cordova prepare' command is run.
 * `cordova run android` & `cordova run ios` – automatically locates an available device and runs the app (prefers real device to emulator/simulator)
 
-###### NB! If installing iOS plugin for the first time, you need to change compiler flags the project's xcode project
+###### *NB!* If installing iOS plugin for the first time, you need to change compiler flags the Cordova project's XCode project
 
 Open the workspace file (XCode) under `platforms/ios/HelloCordova/`, open build settings and make the following changes:
 
