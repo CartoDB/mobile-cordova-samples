@@ -77,11 +77,12 @@ function onMapClicked(clickInfo) {
     var latitude = clickInfo["latitude"];
     var longitude = clickInfo["longitude"];
     
-    console.log("?????+++");
+    var x = clickInfo["x"];
+    var y = clickInfo["y"];
+
     // Click type can be "SINGLE", "DOUBLE", "DUAL" or "LONG"
     var clickType = clickInfo["click_type"];
 
-    // alert("Clicked coordinates: " + x + ", " + y + " (type: " + clickType + ")");
     var title = "Clicked (" + clickType + ")";
     var description = "Coordinates: " + latitude + ", " + longitude;
 
