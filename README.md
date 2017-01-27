@@ -1,6 +1,6 @@
 ## Mobile Cordova Samples
 
-Sample project showing [CartoMobileSDK's](https://carto.com/engine/mobile/) Cordova plugin
+Sample project showing [CARTO Mobile maps SDK](https://carto.com/engine/mobile/) Cordova plugin. Plugin itself: https://github.com/CartoDB/mobile-sdk-cordova
 
 ### Structure
 
@@ -8,7 +8,7 @@ Sample project showing [CartoMobileSDK's](https://carto.com/engine/mobile/) Cord
 
 * **CARTO MapView** initialization and usage is under `www/js/index.js/`
 
-* Contains **2** Cordova plugins
+* Uses **two** Cordova plugins
 
  * com.carto.plugin.sdk 0.0.1 "CartoMobileSDK"
  * cordova-plugin-device 1.1.5-dev "Device"
@@ -18,7 +18,7 @@ Sample project showing [CartoMobileSDK's](https://carto.com/engine/mobile/) Cord
 * `cordova prepare` – Platforms and plugins are automatically restored from config.xml when the 'cordova prepare' command is run.
 * `cordova run android` & `cordova run ios` – automatically locates an available device and runs the app (prefers real device to emulator/simulator)
 
-##### NB! If installing iOS plugin for the first time, you need to change compiler flags the Cordova project's XCode project
+**NB! If installing iOS plugin for the first time, you need to change compiler flags the Cordova project's XCode project**
 
 * Open the workspace file (XCode) under `platforms/ios/HelloCordova/`, open build settings and make the following changes:
 
@@ -39,7 +39,7 @@ As you can see, this sample is rather bare-bones, and the lacking is mostly on t
 
 If you wish to contribute (our plugin is open source), contact us or check out [the plugin's souce](https://github.com/CartoDB/mobile-sdk-cordova)
 
-## Other Samples
+## Other CARTO Mobile SDK platforms and Samples
 
 * [Android Studio (Android samples in Java)](https://github.com/CartoDB/mobile-android-samples)
 * [XCode (iOS samples in Objective-C and Swift)](https://github.com/CartoDB/mobile-ios-samples)
